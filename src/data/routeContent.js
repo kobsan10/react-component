@@ -8,7 +8,7 @@ export const routeContent = {
     title: 'Greetings',
     type: 'message',
     heading: 'Hello there! 👋',
-    body: 'Welcome to this little React Router demo. Use the nav above to jump between pages — every page you visit is rendered by the exact same component, it just receives different data.',
+    body: 'Welcome to this little React Router demo. Use the tab above to jump between pages — every page you visit is rendered by the exact same component, it just receives different data.',
   },
 
   profiles: {
