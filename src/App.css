@@ -1,0 +1,119 @@
+.page {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  gap: 8px;
+  padding: 16px 24px;
+  background: #1f2430;
+}
+
+.nav-link {
+  color: #cbd2e0;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.nav-link.active {
+  background: #fff;
+  color: #1f2430;
+  font-weight: 600;
+}
+
+.stage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #808080;
+  padding: 40px 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  padding: 40px 48px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #aa3bff;
+  margin-bottom: 8px;
+}
+
+.card h1 {
+  margin: 0 0 16px;
+  font-size: 28px;
+  color: #08060d;
+}
+
+.body-text {
+  margin: 0;
+  color: #4b4b55;
+  line-height: 1.5;
+}
+
+.profile-fields {
+  margin: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profile-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.profile-field dt {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #9a95a3;
+}
+
+.profile-field dd {
+  margin: 0;
+  color: #23212b;
+  font-size: 15px;
+}
+
+.hobby-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hobby-list li {
+  color: #23212b;
+  padding: 10px 14px;
+  background: #f4f3ec;
+  border-radius: 6px;
+  font-size: 15px;
+}
